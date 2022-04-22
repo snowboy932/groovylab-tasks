@@ -1,9 +1,9 @@
 **IMPORTANT!** Please note that **every single** function has to return result
 of the calculations, this is crucial for automated testing of your tasks
 
-#### Task 3
-`app/src/main/groovy/groovylab/Task03.groovy` - define, whether second list sublist of the first list.
-Example:
+#### Task 4
+`app/src/main/groovy/groovylab/Task04.groovy` - return n-th element of
+[Fibonacci's sequence](https://en.wikipedia.org/wiki/Fibonacci_number). Example:
 ```groovy
-Task03.isSublist([1,2,3], [2,3]) == true
+Task04.fib(4) == 3
 ```
