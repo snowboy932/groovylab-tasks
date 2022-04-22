@@ -1,14 +1,9 @@
 **IMPORTANT!** Please note that **every single** function has to return result
 of the calculations, this is crucial for automated testing of your tasks
 
-#### Task 7
-`app/src/main/groovy/groovylab/Task07.groovy` - you need to encrypt input string. Conditions:
-- string is a space separated words
-- you need to encrypt each word using following rules:
-  * The first letter needs to be converted to its ASCII code
-  * The second letter needs to be switched with the last letter
-Example:
+#### Task 8
+`app/src/main/groovy/groovylab/Task08.groovy` - parse input json, find all entries, and return another json
+with values where sum of digits in value field equal to 9. Example:
 ```groovy
-Task07.encryptThis("Hello") == "72olle"
-Task07.encryptThis("hello world") == "104olle 119drlo"
+Task08.parseAndFilterJson("{\"Kate\":18,\"Alan\":16,\"Osvald\":27}") == "{\"Kate\":18,\"Osvald\":27}"
 ```
