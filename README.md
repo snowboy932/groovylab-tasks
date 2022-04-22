@@ -1,26 +1,9 @@
-# Groovy lab
+**IMPORTANT!** Please note that **every single** function has to return result
+of the calculations, this is crucial for automated testing of your tasks
 
-## How to run and test your code
-
-In this repo there's a docker-compose file with gradle image. To run container,
-run in your terminal:
-```bash
-docker-compose run gradle
-```
-In this container you can run and test your code. The recommended flow it to
-edit `app/src/main/groovy/groovylab/App.groovy` file and then run
-```bash
-gradle run
-```
-in the container.
-
-Example of `app/src/main/groovy/groovylab/App.groovy`:
+#### Task 3
+`app/src/main/groovy/groovylab/Task03.groovy` - define, whether second list sublist of the first list.
+Example:
 ```groovy
-package groovylab
-
-class App {
-    static void main(String[] args) {
-        println Task07.encryptThis("hello world")
-    }
-}
+Task03.isSublist([1,2,3], [2,3]) == true
 ```
